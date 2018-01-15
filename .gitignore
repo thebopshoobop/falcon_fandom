@@ -1,0 +1,15 @@
+# editor
+.vscode
+
+# python
+__pycache__
+.cache
+.eggs
+*.egg-info
+venv
+
+# docs
+*/docs/build
+
+# environment variable cache
+.env

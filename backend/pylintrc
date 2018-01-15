@@ -1,0 +1,9 @@
+[MASTER]
+load-plugins=pylint.extensions.docparams,pylint.extensions.mccabe,pylint.extensions.overlapping_exceptions,pylint.extensions.redefined_variable_type
+ignore=docs/conf.py
+
+[MESSAGES CONTROL]
+disable=too-few-public-methods,unnecessary-lambda,unused-argument,no-self-use,missing-raises-doc
+
+[REPORTS]
+output-format=colorized
